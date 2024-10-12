@@ -34,7 +34,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 155px;
+    width: 180px;
     height: 160px;
     background: #080001;
     margin: 25px 0px;
@@ -77,6 +77,11 @@ button:hover {
     background-color: #11162d;
     color: #E0F2FE;
     border-color: #F0F9FF;
+}
+
+button:active {
+    transition: 50ms;
+    scale: 1.1;
 }
 
 button.reset {
